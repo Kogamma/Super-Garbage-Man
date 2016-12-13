@@ -1,0 +1,385 @@
+Begin Object Class=Material Name="M_Brick_Clay_New"
+   Begin Object Class=MaterialExpressionAdd Name="MaterialExpressionAdd_21"
+   End Object
+   Begin Object Class=MaterialExpressionAdd Name="MaterialExpressionAdd_22"
+   End Object
+   Begin Object Class=MaterialExpressionAdd Name="MaterialExpressionAdd_23"
+   End Object
+   Begin Object Class=MaterialExpressionAdd Name="MaterialExpressionAdd_24"
+   End Object
+   Begin Object Class=MaterialExpressionAdd Name="MaterialExpressionAdd_25"
+   End Object
+   Begin Object Class=MaterialExpressionBumpOffset Name="MaterialExpressionBumpOffset_0"
+   End Object
+   Begin Object Class=MaterialExpressionComment Name="MaterialExpressionComment_14"
+   End Object
+   Begin Object Class=MaterialExpressionComment Name="MaterialExpressionComment_15"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_8"
+   End Object
+   Begin Object Class=MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_8"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_36"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_37"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_38"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_39"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_40"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_42"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_43"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_44"
+   End Object
+   Begin Object Class=MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_23"
+   End Object
+   Begin Object Class=MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_24"
+   End Object
+   Begin Object Class=MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_25"
+   End Object
+   Begin Object Class=MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_27"
+   End Object
+   Begin Object Class=MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_28"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_27"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_28"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_29"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_31"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_32"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_5"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_7"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_21"
+      A=(Expression=MaterialExpressionTextureSample'M_Brick_Clay_New:MaterialExpressionTextureSample_27',OutputIndex=1,Mask=1,MaskR=1)
+      ConstB=0.500000
+      MaterialExpressionEditorX=-600
+      MaterialExpressionEditorY=-600
+      MaterialExpressionGuid=91B86B904D428234A342D58C9EC86ACD
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_22"
+      A=(Expression=MaterialExpressionTextureSample'M_Brick_Clay_New:MaterialExpressionTextureSample_28',OutputIndex=1,Mask=1,MaskR=1)
+      ConstB=0.500000
+      MaterialExpressionEditorX=-600
+      MaterialExpressionEditorY=-420
+      MaterialExpressionGuid=BE6E0EA5498049AB546AE585EDB4CADC
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_23"
+      A=(Expression=MaterialExpressionTextureSample'M_Brick_Clay_New:MaterialExpressionTextureSample_29',OutputIndex=1,Mask=1,MaskR=1)
+      ConstB=0.500000
+      MaterialExpressionEditorX=-600
+      MaterialExpressionEditorY=-200
+      MaterialExpressionGuid=F06F9CE744B3AA1C354841BDC78835F3
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_24"
+      A=(Expression=MaterialExpressionTextureSample'M_Brick_Clay_New:MaterialExpressionTextureSample_31',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionMultiply'M_Brick_Clay_New:MaterialExpressionMultiply_43')
+      MaterialExpressionEditorX=327
+      MaterialExpressionEditorY=957
+      MaterialExpressionGuid=1CC9AD1944FBCA6C29F36F8B861C7234
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_25"
+      A=(Expression=MaterialExpressionTextureSample'M_Brick_Clay_New:MaterialExpressionTextureSample_2',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionMultiply'M_Brick_Clay_New:MaterialExpressionMultiply_44')
+      MaterialExpressionEditorX=160
+      MaterialExpressionEditorY=760
+      MaterialExpressionGuid=6574E97242E515029D9697B9BE47A2FD
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionBumpOffset_0"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'M_Brick_Clay_New:MaterialExpressionTextureCoordinate_27')
+      Height=(Expression=MaterialExpressionTextureSample'M_Brick_Clay_New:MaterialExpressionTextureSample_5',OutputIndex=4,Mask=1,MaskA=1)
+      HeightRatio=0.005000
+      ReferencePlane=0.900000
+      MaterialExpressionEditorX=-940
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=82A4106C4D75816E792163A45060BC74
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionComment_14"
+      SizeX=832
+      SizeY=747
+      Text="Macro Texture Variation"
+      MaterialExpressionEditorX=-1240
+      MaterialExpressionEditorY=-700
+      MaterialExpressionGuid=F44DAF0F44F9F9B303C1E78E44510A26
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionComment_15"
+      SizeX=472
+      SizeY=440
+      Text="Reduce Macro Contrast"
+      MaterialExpressionEditorX=80
+      MaterialExpressionEditorY=-120
+      MaterialExpressionGuid=676DB9904069EAAF0F6ADA860F553098
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=2.000000
+      MaterialExpressionEditorX=-393
+      MaterialExpressionEditorY=1703
+      MaterialExpressionGuid=C8C497C34B901F394383EEB3362EF2DB
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_8"
+      Constant=(R=0.200000,G=0.200000,B=0.000000,A=0.000000)
+      MaterialExpressionEditorX=180
+      MaterialExpressionEditorY=1660
+      MaterialExpressionGuid=13295BFF4857C59011F3AABCA99CE0A1
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      Alpha=(Expression=MaterialExpressionAdd'M_Brick_Clay_New:MaterialExpressionAdd_25')
+      ConstA=-0.300000
+      ConstB=0.800000
+      MaterialExpressionEditorX=420
+      MaterialExpressionEditorY=700
+      MaterialExpressionGuid=67CCBE604A971A5B801B98AC860CDD59
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_8"
+      Alpha=(Expression=MaterialExpressionMultiply'M_Brick_Clay_New:MaterialExpressionMultiply_39')
+      ConstA=0.500000
+      MaterialExpressionEditorX=360
+      MaterialExpressionEditorY=120
+      MaterialExpressionGuid=BC05AE214173F3720137A9A139B39C80
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_36"
+      A=(Expression=MaterialExpressionTextureCoordinate'M_Brick_Clay_New:MaterialExpressionTextureCoordinate_23')
+      ConstB=0.213400
+      MaterialExpressionEditorX=-1000
+      MaterialExpressionEditorY=-640
+      MaterialExpressionGuid=05106E9440003DCEB3A5BB8BD2BE0AC9
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_37"
+      A=(Expression=MaterialExpressionTextureCoordinate'M_Brick_Clay_New:MaterialExpressionTextureCoordinate_24')
+      ConstB=0.053410
+      MaterialExpressionEditorX=-1000
+      MaterialExpressionEditorY=-440
+      MaterialExpressionGuid=3219D05E454FE45705F5C88DB68C8CDB
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_38"
+      A=(Expression=MaterialExpressionTextureCoordinate'M_Brick_Clay_New:MaterialExpressionTextureCoordinate_25')
+      ConstB=0.002000
+      MaterialExpressionEditorX=-980
+      MaterialExpressionEditorY=-220
+      MaterialExpressionGuid=591F147C4AD60EFD10C22FA5853F36C8
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_39"
+      A=(Expression=MaterialExpressionAdd'M_Brick_Clay_New:MaterialExpressionAdd_22')
+      B=(Expression=MaterialExpressionAdd'M_Brick_Clay_New:MaterialExpressionAdd_23')
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=-160
+      MaterialExpressionGuid=5652D57B457B350F50FF96912C4F16F5
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_40"
+      A=(Expression=MaterialExpressionAdd'M_Brick_Clay_New:MaterialExpressionAdd_21')
+      B=(Expression=MaterialExpressionMultiply'M_Brick_Clay_New:MaterialExpressionMultiply_39')
+      MaterialExpressionEditorX=-120
+      MaterialExpressionEditorY=-280
+      MaterialExpressionGuid=C0F3AC014F9133FEC95D90A149762D44
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_42"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_Brick_Clay_New:MaterialExpressionLinearInterpolate_8')
+      B=(Expression=MaterialExpressionTextureSample'M_Brick_Clay_New:MaterialExpressionTextureSample_4',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=520
+      MaterialExpressionEditorY=460
+      MaterialExpressionGuid=560CD586424EE95F9A69789AFA260235
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_43"
+      A=(Expression=MaterialExpressionTextureSample'M_Brick_Clay_New:MaterialExpressionTextureSample_32',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionConstant3Vector'M_Brick_Clay_New:MaterialExpressionConstant3Vector_8')
+      MaterialExpressionEditorX=238
+      MaterialExpressionEditorY=1500
+      MaterialExpressionGuid=1575A8974E6CDCBF1E7F43AFEE8F50CE
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_44"
+      A=(Expression=MaterialExpressionMultiply'M_Brick_Clay_New:MaterialExpressionMultiply_39')
+      ConstB=0.200000
+      MaterialExpressionEditorX=-100
+      MaterialExpressionEditorY=260
+      MaterialExpressionGuid=A9D3C03248895345225F15BF41146D97
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_23"
+      MaterialExpressionEditorX=-1140
+      MaterialExpressionEditorY=-620
+      MaterialExpressionGuid=7F7B4B4249C1C6A35A3D08BF01E035A9
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_24"
+      MaterialExpressionEditorX=-1140
+      MaterialExpressionEditorY=-440
+      MaterialExpressionGuid=0FA34F7E4B6B169450BF9C866759704E
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_25"
+      MaterialExpressionEditorX=-1160
+      MaterialExpressionEditorY=-200
+      MaterialExpressionGuid=416C3ED041D2E19AEC590CA41EEC5D62
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_27"
+      UTiling=0.500000
+      VTiling=0.500000
+      MaterialExpressionEditorX=-1240
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=EF9DEEE64E5DF495CDA15D8E8E0A0352
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_28"
+      UTiling=0.100000
+      VTiling=0.100000
+      MaterialExpressionEditorX=-580
+      MaterialExpressionEditorY=1480
+      MaterialExpressionGuid=99EF9AA345A2F388126D4E96A3F36C0D
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionBumpOffset'M_Brick_Clay_New:MaterialExpressionBumpOffset_0')
+      Texture=Texture2D'/Game/StarterContent/Textures/T_Brick_Clay_New_M.T_Brick_Clay_New_M'
+      MaterialExpressionEditorX=-500
+      MaterialExpressionEditorY=420
+      MaterialExpressionGuid=552D8A404D1140BCFABAF6BE3634887A
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_27"
+      Coordinates=(Expression=MaterialExpressionMultiply'M_Brick_Clay_New:MaterialExpressionMultiply_36')
+      Texture=Texture2D'/Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation'
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=-640
+      MaterialExpressionGuid=DC0D161643275B5053AE29B2F7AADD52
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_28"
+      Coordinates=(Expression=MaterialExpressionMultiply'M_Brick_Clay_New:MaterialExpressionMultiply_37')
+      Texture=Texture2D'/Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation'
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=-440
+      MaterialExpressionGuid=A16394DC42A32776BDAD0CA5B27A51C7
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_29"
+      Coordinates=(Expression=MaterialExpressionMultiply'M_Brick_Clay_New:MaterialExpressionMultiply_38')
+      Texture=Texture2D'/Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation'
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=-220
+      MaterialExpressionGuid=F4DD17C341401042C78FD9BD9585737A
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_31"
+      Coordinates=(Expression=MaterialExpressionBumpOffset'M_Brick_Clay_New:MaterialExpressionBumpOffset_0')
+      Texture=Texture2D'/Game/StarterContent/Textures/T_Brick_Clay_New_N.T_Brick_Clay_New_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-460
+      MaterialExpressionEditorY=980
+      MaterialExpressionGuid=8441A34E4C7068675EC77FA7C4259D6E
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_32"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'M_Brick_Clay_New:MaterialExpressionTextureCoordinate_28')
+      MipValue=(Expression=MaterialExpressionConstant'M_Brick_Clay_New:MaterialExpressionConstant_0')
+      MipValueMode=TMVM_MipBias
+      Texture=Texture2D'/Game/StarterContent/Textures/T_Detail_Rocky_N.T_Detail_Rocky_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-140
+      MaterialExpressionEditorY=1540
+      MaterialExpressionGuid=B6A90EDC4C97CE4CB698E79A5E461E05
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Coordinates=(Expression=MaterialExpressionBumpOffset'M_Brick_Clay_New:MaterialExpressionBumpOffset_0')
+      Texture=Texture2D'/Game/StarterContent/Textures/T_Brick_Clay_New_D.T_Brick_Clay_New_D'
+      MaterialExpressionEditorX=-500
+      MaterialExpressionEditorY=680
+      MaterialExpressionGuid=5E65D7EC46B0EDB94422F8A0E672351E
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_5"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'M_Brick_Clay_New:MaterialExpressionTextureCoordinate_27')
+      Texture=Texture2D'/Game/StarterContent/Textures/T_Brick_Clay_New_D.T_Brick_Clay_New_D'
+      MaterialExpressionEditorX=-1420
+      MaterialExpressionEditorY=1040
+      MaterialExpressionGuid=01F4B3BB4416066123E56FA6081CEC8A
+      Material=Material'M_Brick_Clay_New'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_7"
+   End Object
+   BaseColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_42')
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0')
+   Normal=(Expression=MaterialExpressionAdd'MaterialExpressionAdd_24')
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'MaterialExpressionTextureSample_2',OutputIndex=2,Mask=1,MaskG=1)
+   bUsedWithStaticLighting=True
+   EditorX=608
+   EditorY=480
+   Expressions(0)=MaterialExpressionMultiply'MaterialExpressionMultiply_42'
+   Expressions(1)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   Expressions(2)=MaterialExpressionAdd'MaterialExpressionAdd_24'
+   Expressions(3)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_2'
+   Expressions(4)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_31'
+   Expressions(5)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_4'
+   Expressions(6)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_27'
+   Expressions(7)=MaterialExpressionBumpOffset'MaterialExpressionBumpOffset_0'
+   Expressions(8)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_5'
+   Expressions(9)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_27'
+   Expressions(10)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_23'
+   Expressions(11)=MaterialExpressionMultiply'MaterialExpressionMultiply_36'
+   Expressions(12)=MaterialExpressionAdd'MaterialExpressionAdd_21'
+   Expressions(13)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_28'
+   Expressions(14)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_24'
+   Expressions(15)=MaterialExpressionMultiply'MaterialExpressionMultiply_37'
+   Expressions(16)=MaterialExpressionAdd'MaterialExpressionAdd_22'
+   Expressions(17)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_29'
+   Expressions(18)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_25'
+   Expressions(19)=MaterialExpressionMultiply'MaterialExpressionMultiply_38'
+   Expressions(20)=MaterialExpressionAdd'MaterialExpressionAdd_23'
+   Expressions(21)=MaterialExpressionMultiply'MaterialExpressionMultiply_39'
+   Expressions(22)=MaterialExpressionMultiply'MaterialExpressionMultiply_40'
+   Expressions(23)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_8'
+   Expressions(24)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_32'
+   Expressions(25)=MaterialExpressionTextureCoordinate'MaterialExpressionTextureCoordinate_28'
+   Expressions(26)=MaterialExpressionMultiply'MaterialExpressionMultiply_43'
+   Expressions(27)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_8'
+   Expressions(28)=MaterialExpressionConstant'MaterialExpressionConstant_0'
+   Expressions(29)=MaterialExpressionMultiply'MaterialExpressionMultiply_44'
+   Expressions(30)=MaterialExpressionAdd'MaterialExpressionAdd_25'
+   EditorComments(0)=MaterialExpressionComment'MaterialExpressionComment_14'
+   EditorComments(1)=MaterialExpressionComment'MaterialExpressionComment_15'
+   StateId=1371B6DD450A8DADF464F080BC5B8A88
+   ReferencedTextureGuids(0)=8D256D944CBF6FCF08DCF3AA4B1114A4
+   ReferencedTextureGuids(1)=4C8D171C4E8B3F6A3D6388A3A5717217
+   ReferencedTextureGuids(2)=27B11A85472490DAB168C1B438EF49B1
+   ReferencedTextureGuids(3)=0C068365468906DC61E61398C2297CBA
+   ReferencedTextureGuids(4)=70BC1186483ADE09C07964806D360B86
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_7'
+   LightingGuid=F81815A245F886F692E9EC9787A4D45A
+End Object
